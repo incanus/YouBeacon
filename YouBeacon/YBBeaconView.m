@@ -49,11 +49,9 @@
 {
     _duration = duration;
 
-    if (_duration == 0)
-    {
-        self.transform = CGAffineTransformIdentity;
-    }
-    else
+    self.transform = CGAffineTransformIdentity;
+
+    if (_duration > 0)
     {
         [UIView animateWithDuration:_duration
                               delay:0
