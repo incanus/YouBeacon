@@ -13,25 +13,8 @@
 		DDF412BE17F725F900E12AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF412BC17F725F900E12AAE /* InfoPlist.strings */; };
 		DDF412C017F725F900E12AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF412BF17F725F900E12AAE /* main.m */; };
 		DDF412C417F725F900E12AAE /* YBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF412C317F725F900E12AAE /* YBAppDelegate.m */; };
-		DDF412C717F725F900E12AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF412C517F725F900E12AAE /* Main.storyboard */; };
 		DDF412CA17F725F900E12AAE /* YBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF412C917F725F900E12AAE /* YBViewController.m */; };
-		DDF412CC17F725F900E12AAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF412CB17F725F900E12AAE /* Images.xcassets */; };
-		DDF412D317F725F900E12AAE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412D217F725F900E12AAE /* XCTest.framework */; };
-		DDF412D417F725F900E12AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412B317F725F900E12AAE /* Foundation.framework */; };
-		DDF412D517F725F900E12AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412B717F725F900E12AAE /* UIKit.framework */; };
-		DDF412DD17F725F900E12AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF412DB17F725F900E12AAE /* InfoPlist.strings */; };
-		DDF412DF17F725F900E12AAE /* YouBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF412DE17F725F900E12AAE /* YouBeaconTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DDF412D617F725F900E12AAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DDF412A817F725F900E12AAE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DDF412AF17F725F900E12AAE;
-			remoteInfo = YouBeacon;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DDF412B017F725F900E12AAE /* YouBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,15 +27,8 @@
 		DDF412C117F725F900E12AAE /* YouBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouBeacon-Prefix.pch"; sourceTree = "<group>"; };
 		DDF412C217F725F900E12AAE /* YBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBAppDelegate.h; sourceTree = "<group>"; };
 		DDF412C317F725F900E12AAE /* YBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAppDelegate.m; sourceTree = "<group>"; };
-		DDF412C617F725F900E12AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDF412C817F725F900E12AAE /* YBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBViewController.h; sourceTree = "<group>"; };
 		DDF412C917F725F900E12AAE /* YBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBViewController.m; sourceTree = "<group>"; };
-		DDF412CB17F725F900E12AAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DDF412D117F725F900E12AAE /* YouBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDF412D217F725F900E12AAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DDF412DA17F725F900E12AAE /* YouBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouBeaconTests-Info.plist"; sourceTree = "<group>"; };
-		DDF412DC17F725F900E12AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DDF412DE17F725F900E12AAE /* YouBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouBeaconTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,18 +37,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDF412B617F725F900E12AAE /* CoreGraphics.framework in Frameworks */,
-				DDF412B817F725F900E12AAE /* UIKit.framework in Frameworks */,
 				DDF412B417F725F900E12AAE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDF412CE17F725F900E12AAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDF412D317F725F900E12AAE /* XCTest.framework in Frameworks */,
-				DDF412D517F725F900E12AAE /* UIKit.framework in Frameworks */,
-				DDF412D417F725F900E12AAE /* Foundation.framework in Frameworks */,
+				DDF412B817F725F900E12AAE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				DDF412B917F725F900E12AAE /* YouBeacon */,
-				DDF412D817F725F900E12AAE /* YouBeaconTests */,
 				DDF412B217F725F900E12AAE /* Frameworks */,
 				DDF412B117F725F900E12AAE /* Products */,
 			);
@@ -93,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				DDF412B017F725F900E12AAE /* YouBeacon.app */,
-				DDF412D117F725F900E12AAE /* YouBeaconTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +65,9 @@
 		DDF412B217F725F900E12AAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DDF412B317F725F900E12AAE /* Foundation.framework */,
 				DDF412B517F725F900E12AAE /* CoreGraphics.framework */,
+				DDF412B317F725F900E12AAE /* Foundation.framework */,
 				DDF412B717F725F900E12AAE /* UIKit.framework */,
-				DDF412D217F725F900E12AAE /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,10 +77,8 @@
 			children = (
 				DDF412C217F725F900E12AAE /* YBAppDelegate.h */,
 				DDF412C317F725F900E12AAE /* YBAppDelegate.m */,
-				DDF412C517F725F900E12AAE /* Main.storyboard */,
 				DDF412C817F725F900E12AAE /* YBViewController.h */,
 				DDF412C917F725F900E12AAE /* YBViewController.m */,
-				DDF412CB17F725F900E12AAE /* Images.xcassets */,
 				DDF412BA17F725F900E12AAE /* Supporting Files */,
 			);
 			path = YouBeacon;
@@ -130,24 +91,6 @@
 				DDF412BC17F725F900E12AAE /* InfoPlist.strings */,
 				DDF412BF17F725F900E12AAE /* main.m */,
 				DDF412C117F725F900E12AAE /* YouBeacon-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DDF412D817F725F900E12AAE /* YouBeaconTests */ = {
-			isa = PBXGroup;
-			children = (
-				DDF412DE17F725F900E12AAE /* YouBeaconTests.m */,
-				DDF412D917F725F900E12AAE /* Supporting Files */,
-			);
-			path = YouBeaconTests;
-			sourceTree = "<group>";
-		};
-		DDF412D917F725F900E12AAE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DDF412DA17F725F900E12AAE /* YouBeaconTests-Info.plist */,
-				DDF412DB17F725F900E12AAE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -172,24 +115,6 @@
 			productReference = DDF412B017F725F900E12AAE /* YouBeacon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDF412D017F725F900E12AAE /* YouBeaconTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DDF412E517F725F900E12AAE /* Build configuration list for PBXNativeTarget "YouBeaconTests" */;
-			buildPhases = (
-				DDF412CD17F725F900E12AAE /* Sources */,
-				DDF412CE17F725F900E12AAE /* Frameworks */,
-				DDF412CF17F725F900E12AAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDF412D717F725F900E12AAE /* PBXTargetDependency */,
-			);
-			name = YouBeaconTests;
-			productName = YouBeaconTests;
-			productReference = DDF412D117F725F900E12AAE /* YouBeaconTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +124,6 @@
 				CLASSPREFIX = YB;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = MapBox;
-				TargetAttributes = {
-					DDF412D017F725F900E12AAE = {
-						TestTargetID = DDF412AF17F725F900E12AAE;
-					};
-				};
 			};
 			buildConfigurationList = DDF412AB17F725F900E12AAE /* Build configuration list for PBXProject "YouBeacon" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +139,6 @@
 			projectRoot = "";
 			targets = (
 				DDF412AF17F725F900E12AAE /* YouBeacon */,
-				DDF412D017F725F900E12AAE /* YouBeaconTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF412CC17F725F900E12AAE /* Images.xcassets in Resources */,
 				DDF412BE17F725F900E12AAE /* InfoPlist.strings in Resources */,
-				DDF412C717F725F900E12AAE /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDF412CF17F725F900E12AAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDF412DD17F725F900E12AAE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,45 +165,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDF412CD17F725F900E12AAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDF412DF17F725F900E12AAE /* YouBeaconTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DDF412D717F725F900E12AAE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DDF412AF17F725F900E12AAE /* YouBeacon */;
-			targetProxy = DDF412D617F725F900E12AAE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DDF412BC17F725F900E12AAE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DDF412BD17F725F900E12AAE /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DDF412C517F725F900E12AAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDF412C617F725F900E12AAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DDF412DB17F725F900E12AAE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDF412DC17F725F900E12AAE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -400,48 +277,6 @@
 			};
 			name = Release;
 		};
-		DDF412E617F725F900E12AAE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YouBeacon.app/YouBeacon";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YouBeacon/YouBeacon-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "YouBeaconTests/YouBeaconTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		DDF412E717F725F900E12AAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YouBeacon.app/YouBeacon";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YouBeacon/YouBeacon-Prefix.pch";
-				INFOPLIST_FILE = "YouBeaconTests/YouBeaconTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -459,14 +294,6 @@
 			buildConfigurations = (
 				DDF412E317F725F900E12AAE /* Debug */,
 				DDF412E417F725F900E12AAE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DDF412E517F725F900E12AAE /* Build configuration list for PBXNativeTarget "YouBeaconTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDF412E617F725F900E12AAE /* Debug */,
-				DDF412E717F725F900E12AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
