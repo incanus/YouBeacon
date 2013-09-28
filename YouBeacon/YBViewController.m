@@ -10,34 +10,9 @@
 
 #import "YBBeaconView.h"
 
-#import <CoreLocation/CoreLocation.h>
-
 #define kYBIDs   @[ @1, @3, @5, @7 ]
 
-@interface YBViewController () <CLLocationManagerDelegate>
-
-@property (nonatomic) CLLocationManager *locationManager;
-
-@end
-
-#pragma mark -
-
 @implementation YBViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])
-    {
-        self.locationManager = [CLLocationManager new];
-        self.locationManager.delegate = self;
-        [self.locationManager startUpdatingLocation];
-
-        NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"];
-        [self.locationManager startRangingBeaconsInRegion:[[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:uuid.UUIDString]];
-    }
-
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -71,6 +46,15 @@
 - (BOOL)prefersStatusBarHidden
 {
     return YES;
+}
+
+#pragma mark -
+
+- (void)resetAnimations
+{
+    for (YBBeaconView *beaconView in self.view.subviews)
+        if ([beaconView isKindOfClass:[YBBeaconView class]])
+            beaconView.duration = 0;
 }
 
 #pragma mark -

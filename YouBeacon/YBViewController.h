@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YBViewController : UIViewController
+#import <CoreLocation/CoreLocation.h>
+
+@interface YBViewController : UIViewController <CLLocationManagerDelegate>
+
+- (void)resetAnimations;
 
 @end
