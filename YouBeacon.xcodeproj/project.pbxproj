@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0E759E17F72CD100C76C03 /* 2c.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0E759D17F72CD100C76C03 /* 2c.png */; };
 		DDF412B417F725F900E12AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412B317F725F900E12AAE /* Foundation.framework */; };
 		DDF412B617F725F900E12AAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412B517F725F900E12AAE /* CoreGraphics.framework */; };
 		DDF412B817F725F900E12AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412B717F725F900E12AAE /* UIKit.framework */; };
@@ -14,9 +15,11 @@
 		DDF412C017F725F900E12AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF412BF17F725F900E12AAE /* main.m */; };
 		DDF412C417F725F900E12AAE /* YBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF412C317F725F900E12AAE /* YBAppDelegate.m */; };
 		DDF412CA17F725F900E12AAE /* YBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF412C917F725F900E12AAE /* YBViewController.m */; };
+		DDF412E917F7277700E12AAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412E817F7277700E12AAE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD0E759D17F72CD100C76C03 /* 2c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2c.png; sourceTree = "<group>"; };
 		DDF412B017F725F900E12AAE /* YouBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF412B317F725F900E12AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDF412B517F725F900E12AAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -29,6 +32,7 @@
 		DDF412C317F725F900E12AAE /* YBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAppDelegate.m; sourceTree = "<group>"; };
 		DDF412C817F725F900E12AAE /* YBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBViewController.h; sourceTree = "<group>"; };
 		DDF412C917F725F900E12AAE /* YBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBViewController.m; sourceTree = "<group>"; };
+		DDF412E817F7277700E12AAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDF412B617F725F900E12AAE /* CoreGraphics.framework in Frameworks */,
+				DDF412E917F7277700E12AAE /* CoreLocation.framework in Frameworks */,
 				DDF412B417F725F900E12AAE /* Foundation.framework in Frameworks */,
 				DDF412B817F725F900E12AAE /* UIKit.framework in Frameworks */,
 			);
@@ -66,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				DDF412B517F725F900E12AAE /* CoreGraphics.framework */,
+				DDF412E817F7277700E12AAE /* CoreLocation.framework */,
 				DDF412B317F725F900E12AAE /* Foundation.framework */,
 				DDF412B717F725F900E12AAE /* UIKit.framework */,
 			);
@@ -79,6 +85,7 @@
 				DDF412C317F725F900E12AAE /* YBAppDelegate.m */,
 				DDF412C817F725F900E12AAE /* YBViewController.h */,
 				DDF412C917F725F900E12AAE /* YBViewController.m */,
+				DD0E759D17F72CD100C76C03 /* 2c.png */,
 				DDF412BA17F725F900E12AAE /* Supporting Files */,
 			);
 			path = YouBeacon;
@@ -148,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0E759E17F72CD100C76C03 /* 2c.png in Resources */,
 				DDF412BE17F725F900E12AAE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +304,7 @@
 				DDF412E417F725F900E12AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
