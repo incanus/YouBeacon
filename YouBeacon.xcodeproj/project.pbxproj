@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DD0E759E17F72CD100C76C03 /* 2c.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0E759D17F72CD100C76C03 /* 2c.png */; };
+		DD0E75A217F751BE00C76C03 /* YBBeaconView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E75A117F751BE00C76C03 /* YBBeaconView.m */; };
+		DDD44F5B17F77096009E2A68 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD44F5717F77096009E2A68 /* 5.png */; };
+		DDD44F5C17F77096009E2A68 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD44F5817F77096009E2A68 /* 7.png */; };
+		DDD44F5D17F77096009E2A68 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD44F5917F77096009E2A68 /* 3.png */; };
+		DDD44F5E17F77096009E2A68 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD44F5A17F77096009E2A68 /* 1.png */; };
 		DDF412B417F725F900E12AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412B317F725F900E12AAE /* Foundation.framework */; };
 		DDF412B617F725F900E12AAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412B517F725F900E12AAE /* CoreGraphics.framework */; };
 		DDF412B817F725F900E12AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF412B717F725F900E12AAE /* UIKit.framework */; };
@@ -20,6 +25,12 @@
 
 /* Begin PBXFileReference section */
 		DD0E759D17F72CD100C76C03 /* 2c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2c.png; sourceTree = "<group>"; };
+		DD0E75A017F751BE00C76C03 /* YBBeaconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBeaconView.h; sourceTree = "<group>"; };
+		DD0E75A117F751BE00C76C03 /* YBBeaconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBeaconView.m; sourceTree = "<group>"; };
+		DDD44F5717F77096009E2A68 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DDD44F5817F77096009E2A68 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		DDD44F5917F77096009E2A68 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		DDD44F5A17F77096009E2A68 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		DDF412B017F725F900E12AAE /* YouBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF412B317F725F900E12AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDF412B517F725F900E12AAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,6 +61,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0E759F17F74CEE00C76C03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD0E759D17F72CD100C76C03 /* 2c.png */,
+				DDD44F5A17F77096009E2A68 /* 1.png */,
+				DDD44F5917F77096009E2A68 /* 3.png */,
+				DDD44F5717F77096009E2A68 /* 5.png */,
+				DDD44F5817F77096009E2A68 /* 7.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		DDF412A717F725F900E12AAE = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +108,9 @@
 				DDF412C317F725F900E12AAE /* YBAppDelegate.m */,
 				DDF412C817F725F900E12AAE /* YBViewController.h */,
 				DDF412C917F725F900E12AAE /* YBViewController.m */,
-				DD0E759D17F72CD100C76C03 /* 2c.png */,
+				DD0E75A017F751BE00C76C03 /* YBBeaconView.h */,
+				DD0E75A117F751BE00C76C03 /* YBBeaconView.m */,
+				DD0E759F17F74CEE00C76C03 /* Resources */,
 				DDF412BA17F725F900E12AAE /* Supporting Files */,
 			);
 			path = YouBeacon;
@@ -155,6 +180,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD44F5C17F77096009E2A68 /* 7.png in Resources */,
+				DDD44F5B17F77096009E2A68 /* 5.png in Resources */,
+				DDD44F5D17F77096009E2A68 /* 3.png in Resources */,
+				DDD44F5E17F77096009E2A68 /* 1.png in Resources */,
 				DD0E759E17F72CD100C76C03 /* 2c.png in Resources */,
 				DDF412BE17F725F900E12AAE /* InfoPlist.strings in Resources */,
 			);
@@ -170,6 +199,7 @@
 				DDF412C017F725F900E12AAE /* main.m in Sources */,
 				DDF412CA17F725F900E12AAE /* YBViewController.m in Sources */,
 				DDF412C417F725F900E12AAE /* YBAppDelegate.m in Sources */,
+				DD0E75A217F751BE00C76C03 /* YBBeaconView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
